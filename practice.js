@@ -17,16 +17,16 @@ function greeting(name){
 //Name it newGreeting.
 
 //Code Here
-var a = function newGreeting(){
-
-};
+var a = function newGreeting(name){
+return ("Hello, " + name); 
+}
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
 //Code Here
-
+var greeting = (name) => {}
 //////////////////PROBLEM 4////////////////////
 
 //Create an array called groceries with the values
