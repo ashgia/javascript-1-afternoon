@@ -6,6 +6,10 @@
 //plus the value of the name parameter.
 
 //Code here
+function greeting(name){
+  console.log("Hello, " + name);
+}
+  
 
 //////////////////PROBLEM 2////////////////////
 
@@ -13,7 +17,9 @@
 //Name it newGreeting.
 
 //Code Here
+var a = function newGreeting(){
 
+};
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
