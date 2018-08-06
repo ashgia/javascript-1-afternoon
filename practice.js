@@ -26,13 +26,15 @@ return ("Hello, " + name);
 //Name it finalGreeting.
 
 //Code Here
-var greeting = (name) => {}
+var finalgreeting = (name) => "Hello, " + name;
+
 //////////////////PROBLEM 4////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+var groceries = ['apples','milk','eggs','bread'];
 
 //Write a function called doubleCheck that takes in an array
 //as a parameter.
@@ -41,6 +43,11 @@ var greeting = (name) => {}
 //doubleCheck should return the array.
 
 //Code Here
+function doubleCheck(array){
+  if (!array.includes('chocolate'));
+  array.push('chocolate');
+  return array; 
+}
 
 //////////////////PROBLEM 5////////////////////
 
@@ -50,6 +57,7 @@ var greeting = (name) => {}
 //and goodBoy (a boolean).
 
 //Code Here
+var dog = {name:"Tulu", color:"Black and White", age:1, goodBoy:true};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
