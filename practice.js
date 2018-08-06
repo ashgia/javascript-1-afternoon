@@ -7,9 +7,9 @@
 
 //Code here
 function greeting(name){
-  console.log("Hello, " + name);
+  return "Hello, " + name;
 }
-  
+ 
 
 //////////////////PROBLEM 2////////////////////
 
@@ -18,7 +18,7 @@ function greeting(name){
 
 //Code Here
 var a = function newGreeting(name){
-return ("Hello, " + name); 
+return "Hello, " + name; 
 }
 //////////////////PROBLEM 3////////////////////
 
@@ -26,7 +26,7 @@ return ("Hello, " + name);
 //Name it finalGreeting.
 
 //Code Here
-var finalgreeting = (name) => "Hello, " + name;
+var finalGreeting = (name) => "Hello, " + name;
 
 //////////////////PROBLEM 4////////////////////
 
@@ -57,22 +57,24 @@ function doubleCheck(array){
 //and goodBoy (a boolean).
 
 //Code Here
-var dog = {name:"Tulu", color:"Black and White", age:1, goodBoy:true};
+var dog = {name: "Tulu", color: "Black and White", age: 1, goodBoy: true};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-
+var devMountainClassPet = dog.name;
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
 
 //Code Here
-
+dog.bark = function(){
+  return "Woof woof";
+};
 //Store the result of invoking the bark method in a variable called ruff.
 
 //Code Here
-
+var ruff = dog.bark;
 //////////////////PROBLEM 6////////////////////
 
 //Write a function called looper that takes in an array. looper should declare
@@ -84,8 +86,14 @@ var dog = {name:"Tulu", color:"Black and White", age:1, goodBoy:true};
 
 //Return mySum.
 
-//Code Here
+function looper = (array){
+  var mySum = 0;
+  for (i=0, i<array.length, i++){
+    if ((array % 2) ==== 1 ) {
 
+    }
+  }
+}
 //////////////////PROBLEM 7////////////////////
 
 //Given the following function called math
