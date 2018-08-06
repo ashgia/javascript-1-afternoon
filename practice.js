@@ -17,16 +17,16 @@ function greeting(name){
 //Name it newGreeting.
 
 //Code Here
-var a = function newGreeting(name){
-return "Hello, " + name; 
-}
+//var a = function newGreeting(name){
+//return "Hello, " + name; 
+//}
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
 //Code Here
-var finalGreeting = (name) => "Hello, " + name;
+//var finalGreeting = (name) => "Hello, " + name;
 
 //////////////////PROBLEM 4////////////////////
 
@@ -34,7 +34,7 @@ var finalGreeting = (name) => "Hello, " + name;
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-var groceries = ['apples','milk','eggs','bread'];
+//var groceries = ['apples','milk','eggs','bread'];
 
 //Write a function called doubleCheck that takes in an array
 //as a parameter.
@@ -43,11 +43,11 @@ var groceries = ['apples','milk','eggs','bread'];
 //doubleCheck should return the array.
 
 //Code Here
-function doubleCheck(array){
-  if (!array.includes('chocolate'));
-  array.push('chocolate');
-  return array; 
-}
+//function doubleCheck(array){
+//  if (!array.includes('chocolate'));
+//  array.push('chocolate');
+//  return array; 
+//}
 
 //////////////////PROBLEM 5////////////////////
 
@@ -57,24 +57,24 @@ function doubleCheck(array){
 //and goodBoy (a boolean).
 
 //Code Here
-var dog = {name: "Tulu", color: "Black and White", age: 1, goodBoy: true};
+//var dog = {name: "Tulu", color: "Black and White", age: 1, goodBoy: true};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-var devMountainClassPet = dog.name;
+//var devMountainClassPet = dog.name;
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
 
 //Code Here
-dog.bark = function(){
-  return "Woof woof";
-};
+//dog.bark = function(){
+//  return "Woof woof";
+//};
 //Store the result of invoking the bark method in a variable called ruff.
 
 //Code Here
-var ruff = dog.bark;
+//var ruff = dog.bark;
 //////////////////PROBLEM 6////////////////////
 
 //Write a function called looper that takes in an array. looper should declare
@@ -86,14 +86,14 @@ var ruff = dog.bark;
 
 //Return mySum.
 
-function looper = (array){
-  var mySum = 0;
-  for (i=0, i<array.length, i++){
-    if ((array % 2) ==== 1 ) {
+//function looper = (array){
+//  var mySum = 0;
+// for (i=0, i<array.length, i++){
+//    if ((array % 2) ==== 1 ) {
 
-    }
-  }
-}
+//    }
+//  }
+//}
 //////////////////PROBLEM 7////////////////////
 
 //Given the following function called math
